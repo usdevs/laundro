@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[826],{5444:function(a){a.exports=JSON.parse('{"allTagsPath":"/laundro/blog/tags","slug":"/laundro/blog/tags/feelsbad","name":"feelsbad","count":1,"permalink":"/laundro/blog/tags/feelsbad"}')}}]);
