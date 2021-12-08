@@ -1,4 +1,5 @@
-const GITHUB_REPO = "https://github.com/usdevs/laundro";
+const DOCS_BRANCH = 'docs';
+const GITHUB_REPO = `https://github.com/usdevs/laundro/tree/${DOCS_BRANCH}`;
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
