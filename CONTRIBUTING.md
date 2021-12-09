@@ -20,7 +20,7 @@ git branch <branch-type>/<description>
 | `bugfix`    | what is the bug                                |
 | `testing`   | which component are you testing                |
 | `devops`    | anything related to CI/deployment              |
-| `docs`      | what are you updating in the docs              |
+| `doc`      | what are you updating in the docs              |
 
 > **description** should be not include any whitespaces. Separate it with dashes/underscores.
 
