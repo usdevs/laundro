@@ -60,16 +60,23 @@ def poll_graph(list_of_ads, width):
         plt.show()
         plt.clt()  # clear terminal
 
-
+# rolling table 
+def poll_table(r, c):
+    # to be implemented
+    
 if __name__ == "__main__":
     '''
     Assumes that all ADS is of the same model
     '''
     parser = argparse.ArgumentParser(description="Poll ADS Channel Values")
+    parser.add_argument('--func', help = "Representation(Table: poll_table, Graph: poll_graph)", 
+                        default = 'poll_graph')
     parser.add_argument('--ads1x15', type=int,
                         help="ADS Model (1: ADS1115, 0: ADS1015)", default=0)
     parser.add_argument('--width', type=int,
                         help="Width of the graph (length of history)", default=20)
-
+    
     args = parser.parse_args()
-    poll_graph(get_all_ads(args.ads1x15), args.width)
+    func_type = globals()[args.func]
+    
+    func_type(get_all_ads(args.ads1x15), args.width)
