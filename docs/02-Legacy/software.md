@@ -112,7 +112,7 @@ def main():
     Assumes that each run of the loop takes around 25 seconds
 
     Observation:
-    Runtime of one iteration = 2secs * 9pins + 1 secs sleep + 2 secs firebase/logs ~= 21secs
+    Runtime of one iteration ~= 2secs * 9pins + 1 secs sleep (around 21-22 secs)
 
     2secs * 9pins : More on this in `pin.py`
     '''
@@ -226,7 +226,7 @@ tail -f <name of log file>
 
 **Contains the class definition for `Pin`.**
 
-Each `Pin` object represents a pin on the **raspberry pi** (not the Analog to Digital Conveter (ADC)), and has the following properties and methods:
+Each `Pin` object represents a input pin of a ADC/ADS, and has the following properties and methods:
 
 | Properties                                        | Info                                                                                                  |
 | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
