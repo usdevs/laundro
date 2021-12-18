@@ -1,0 +1,112 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "b06a9802c0b1f5a857ae40066f9bcb8514b7ca965c33fa2921f30c30abb60738"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.9"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "adafruit-ads1x15": {
+            "hashes": [
+                "sha256:058021475c51d8fad6ce8417d69ca5aea71dec9d9e5292e6b83b6cc8b338dcd3",
+                "sha256:2076c114e3ca938ef5de13c608f2b28c517ca3d53407432fd470118556ab3feb"
+            ],
+            "index": "pypi",
+            "version": "==1.0.2"
+        },
+        "adafruit-blinka": {
+            "hashes": [
+                "sha256:54d1db8679e50f7b6ff6ac9580ecabfed2dd657eeb6edd3e62bf2a4fdb59b237"
+            ],
+            "index": "pypi",
+            "version": "==6.16.0"
+        },
+        "adafruit-gpio": {
+            "hashes": [
+                "sha256:d6465b92c866c51ca8f3bc1e8f2ec36f5ccdb46d0fd54101c1109756d4a2dcd0"
+            ],
+            "version": "==1.0.3"
+        },
+        "adafruit-platformdetect": {
+            "hashes": [
+                "sha256:593f3719580b31b3dffab0817414a3aa548ed609659ad216ceb8cf31cc51ec9b"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==3.18.0"
+        },
+        "adafruit-pureio": {
+            "hashes": [
+                "sha256:2caf22fb07c7f771d83267f331a76cde314723f884a9570ea6f768730c87a879"
+            ],
+            "markers": "python_full_version >= '3.5.0'",
+            "version": "==1.1.9"
+        },
+        "pyftdi": {
+            "hashes": [
+                "sha256:4ef20c246bdb0f278d283337d7a6e69cf9bdb0ead525e7ad867d9e46ad26e613",
+                "sha256:6e86880ec6d66389de643ca83de5d59fffea3bd334f492e12fab71a832f878a2"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==0.53.3"
+        },
+        "pyserial": {
+            "hashes": [
+                "sha256:3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb",
+                "sha256:c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0"
+            ],
+            "version": "==3.5"
+        },
+        "pyusb": {
+            "hashes": [
+                "sha256:2b4c7cb86dbadf044dfb9d3a4ff69fd217013dbe78a792177a3feb172449ea36",
+                "sha256:a4cc7404a203144754164b8b40994e2849fde1cfff06b08492f12fff9d9de7b9"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==1.2.1"
+        }
+    },
+    "develop": {
+        "autopep8": {
+            "hashes": [
+                "sha256:44f0932855039d2c15c4510d6df665e4730f2b8582704fa48f9c55bd3e17d979",
+                "sha256:ed77137193bbac52d029a52c59bec1b0629b5a186c495f1eb21b126ac466083f"
+            ],
+            "index": "pypi",
+            "version": "==1.6.0"
+        },
+        "plotext": {
+            "hashes": [
+                "sha256:5ae666f3ac6762bc47e70fd8e34b020564d6d0aeba234641a8b070d62b7c4dcd",
+                "sha256:da869bde7630e8a366b40fc3e0a523122e4c9c16b24468dc025b55eb3d3e2610"
+            ],
+            "index": "pypi",
+            "version": "==4.1.0"
+        },
+        "pycodestyle": {
+            "hashes": [
+                "sha256:720f8b39dde8b293825e7ff02c475f3077124006db4f440dcbc9a20b76548a20",
+                "sha256:eddd5847ef438ea1c7870ca7eb78a9d47ce0cdb4851a5523949f2601d0cbbe7f"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
+            "version": "==2.8.0"
+        },
+        "toml": {
+            "hashes": [
+                "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b",
+                "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"
+            ],
+            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==0.10.2"
+        }
+    }
+}
