@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[420],{8335:function(o){o.exports=JSON.parse('{"allTagsPath":"/laundro/blog/tags","slug":"/laundro/blog/tags/cool-stuff","name":"cool-stuff","count":1,"permalink":"/laundro/blog/tags/cool-stuff"}')}}]);
