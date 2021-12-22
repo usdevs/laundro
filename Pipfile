@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 adafruit-ads1x15 = "*"
 adafruit-blinka = "*"
+influxdb = "*"
 
 [dev-packages]
 plotext = "*"
